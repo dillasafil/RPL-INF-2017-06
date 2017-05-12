@@ -1,5 +1,3 @@
-
-
 <html>
 <head>
 	<title>HOME</title>
@@ -16,7 +14,10 @@ h1 {
 h1:hover{
 	color: white;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ba0b2409ed25de6b8ea53d50bd4f0321b66e1e5d
 h2 {
 	color: black;
 	text-align: center;
@@ -24,16 +25,25 @@ h2 {
 	font-weight: bold;
     font-size: 20px;
 }
+<<<<<<< HEAD
 
 h2:hover{
 	color: white;	
 }
 
+=======
+h2:hover{
+	color: white;	
+}
+>>>>>>> ba0b2409ed25de6b8ea53d50bd4f0321b66e1e5d
 p{
 	font-family: century gothic;
 	color: white
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ba0b2409ed25de6b8ea53d50bd4f0321b66e1e5d
 img{
 	width: 50px;
 }
@@ -62,17 +72,23 @@ body {
 .content{	
 		text-align: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ba0b2409ed25de6b8ea53d50bd4f0321b66e1e5d
 .tb{
 	padding: 10px 20px;
 	background-color: rgba(5, 17, 20, 0.60);
 	margin: 0 auto;
 	width: 1000px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	}
 
   #popup1 {
 =======
+=======
+>>>>>>> ba0b2409ed25de6b8ea53d50bd4f0321b66e1e5d
 }
 	
 .tb1{
@@ -86,9 +102,13 @@ body {
 	background-color: rgba(5, 17, 20, 0.60);
 	
 }
+<<<<<<< HEAD
 
 #popup {
 >>>>>>> muhammad_syuhada
+=======
+#popup {
+>>>>>>> ba0b2409ed25de6b8ea53d50bd4f0321b66e1e5d
 	width: 100%;
 	height: 100%;
 	position: fixed;
@@ -98,11 +118,17 @@ body {
 	z-index: 9999;
 	visibility: hidden;
 }
+<<<<<<< HEAD
 
 #popup1:target {
 	visibility: visible;
 }
 
+=======
+#popup:target {
+	visibility: visible;
+}
+>>>>>>> ba0b2409ed25de6b8ea53d50bd4f0321b66e1e5d
  
 .button{
 	font-family: century gothic;
@@ -118,9 +144,13 @@ body {
 }
 .button:hover{
 	color: black;
+<<<<<<< HEAD
 
 }
 
+=======
+}
+>>>>>>> ba0b2409ed25de6b8ea53d50bd4f0321b66e1e5d
 .close-button {
 	text-decoration: none;
 	position: absolute;
@@ -133,7 +163,10 @@ body {
 .close-button:hover {
 	color: black;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ba0b2409ed25de6b8ea53d50bd4f0321b66e1e5d
 .box{ 
 	border: 2px solid;
 	color: white;
@@ -145,9 +178,14 @@ body {
 	border-bottom-width: 20px;
 	border-top-width: 10px;
 	border-radius: 20px;
+<<<<<<< HEAD
 	margin: 0 auto;
 }
 
+=======
+	margin: 10% auto;
+}
+>>>>>>> ba0b2409ed25de6b8ea53d50bd4f0321b66e1e5d
 .boxform{ 
 	border:  transparent;
 	font-size: 15px;
@@ -159,7 +197,10 @@ body {
 	color:black;
 	border: 2px solid;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ba0b2409ed25de6b8ea53d50bd4f0321b66e1e5d
 .navbar-atas{
 				background:rgba(209, 209, 209, 0.05);
 			}
@@ -194,6 +235,7 @@ body {
 	<div  class="tb">
 		<a class = "text" href="">Profile</a>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		<a class = "text" href="">Isi saldo</a>
 			 
@@ -210,6 +252,8 @@ body {
 		<a class = "text" href="">Bayar Iuran</a>
 			
 =======
+=======
+>>>>>>> ba0b2409ed25de6b8ea53d50bd4f0321b66e1e5d
 		
 		<a class = "text" href="#popup">Isi saldo</a>
 			 <div id="popup">
@@ -230,7 +274,10 @@ body {
 		<a class = "text" href="#popup1">Cek saldo</a>
 		<a class = "text" href="#popup2">Bayar Iuran</a>
 		<a class = "text" href="#popup2">Bayar Parkir</a>
+<<<<<<< HEAD
 >>>>>>> muhammad_syuhada
+=======
+>>>>>>> ba0b2409ed25de6b8ea53d50bd4f0321b66e1e5d
 	</div>
 	<br>
 
