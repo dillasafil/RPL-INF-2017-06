@@ -11,6 +11,9 @@
 		html, body {
 			height: 100%;
 		}
+		body{
+			background-image:url("img/1.jpg");
+		}
 		h1{
 			font-size:40px;
 			font-family: Colonna MT;
