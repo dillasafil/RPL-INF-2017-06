@@ -19,7 +19,7 @@
 			<div class="panel-body">
 				<div class="row">
 					<div class="col-md-3 col-lg-3 " align="center"> 
-						<img alt="User Pic" src="http://findicons.com/files/icons/61/dragon_soft/256/user.png" class="img-circle img-responsive"> 
+						<img alt="User Pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLlSIpjmgsR7dbQk8UGns3745kk-5RDiIHmVMZ1f1gCkCBYYud" class="img-circle img-responsive"> 
 					</div>
 					<div class=" col-md-9 col-lg-9 "> 
 						<table class="table">
