@@ -96,7 +96,6 @@
 					bayar
 				</div>
 				<div id="profil">
-					profil
 					<?php include"profil.php";?>
 				</div>
 			</div>
