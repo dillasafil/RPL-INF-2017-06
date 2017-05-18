@@ -42,7 +42,7 @@
 			
 			$('[data-toggle="popover"]').popover({
 				html : true,
-				content: '<a href="akun.php">Account</a><br><a href="logout.php">Log Out</a>',
+				content: '<a href="akun.php">Profil</a><br><a href="logout.php">Log Out</a>',
 			});	
 		});
 	</script>
