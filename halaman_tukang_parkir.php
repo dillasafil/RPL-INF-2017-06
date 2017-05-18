@@ -40,9 +40,11 @@
 				$(target).fadeIn(300);
 			});
 			
+			$('[data-toggle="tooltip"]').tooltip();
+			
 			$('[data-toggle="popover"]').popover({
 				html : true,
-				content: '<a href="akun.php">Profil</a><br><a href="logout.php">Log Out</a>',
+				content: '<div class="text-center"><a href="#profil">Profil</a><br><a href="logout.php">Log Out</a></div>',
 			});	
 		});
 	</script>
@@ -60,7 +62,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					
-					<a href="#" class="btn btn-default pull-right user" data-toggle="popover" data-placement="bottom">
+					<a href="#" class="btn btn-default pull-right user" data-trigger="focus" data-toggle="popover" data-placement="bottom">
 						<span class="glyphicon glyphicon-user"></span> <span class="glyphicon">User</span> <span class="caret"></span>
 					</a>
 					<div class="navbar-header">
@@ -82,6 +84,9 @@
 				<div id="info">
 				</div>
 				<div id="bayar">
+				</div>
+				<div id="profil">
+					<?php include"profil.php";?>
 				</div>
 			</div>
 			<footer class="navbar navbar-inverse text-center" style="color:white; padding-top:15px;">
