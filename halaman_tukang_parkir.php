@@ -18,16 +18,18 @@
 		h4{
 			font-family: century gothic;
 		}
-		#saldo{
+		#saldo,#bayar,#profil{
+			display:none;
+		}
+		
+		#saldo div{
 			background:gray;
 			letter-spacing: 2px;
 			border-bottom-width: 20px;
 			border-top-width: 10px;
 			border-radius: 20px;
-			display:none;
 		}
 		.user{
-			display:;
 			margin-top:6px;
 			padding:8px 10px;
 		}
@@ -44,9 +46,13 @@
 			
 			$('[data-toggle="popover"]').popover({
 				html : true,
-				content: '<div class="text-center"><a href="#profil">Profil</a><br><a href="logout.php">Log Out</a></div>',
+				content: '<div class="text-center"><a id="#profil" href="#profil" onClick="viewProfil(this.id)">Profil</a><br><a href="logout.php">Log Out</a></div>',
 			});	
 		});
+		function viewProfil(id){
+			$('#main > div').not(id).hide();
+			$(id).fadeIn(300);
+		}
 	</script>
 	<body>
 		<div class="container" style="height: 100%;">
@@ -76,16 +82,21 @@
 					</div>
 				</div>
 			</nav>
-			<div id="main" class="container-fluid" style="height: 60%; margin-top:-10px;">
+			<div id="main" class="container-fluid" style="height: 63%; margin-top:-10px;">
 				<div id="saldo" class="col-md-4 col-md-offset-4 text-center">
-					<h3>Saldo Anda</h3>
-					<?php include'get_saldo.php'?>
+					<div>
+						<h3>Saldo Anda</h3>
+						<?php include'get_saldo.php'?>
+					</div>
 				</div>
 				<div id="info">
+					info
 				</div>
 				<div id="bayar">
+					bayar
 				</div>
 				<div id="profil">
+					profil
 					<?php include"profil.php";?>
 				</div>
 			</div>
