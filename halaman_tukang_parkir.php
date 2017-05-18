@@ -23,6 +23,7 @@
 		}
 		
 		#saldo div{
+			padding:5px 0px;
 			background:gray;
 			letter-spacing: 2px;
 			border-bottom-width: 20px;
