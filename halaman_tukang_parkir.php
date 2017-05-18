@@ -103,6 +103,32 @@
 			<footer class="navbar navbar-inverse text-center" style="color:white; padding-top:15px;">
 				 copyright &copy; 2017 all right reserved
 			</footer>
+			
+			<div id="edit" class="modal fade">
+				<div class="modal-dialog modal-sm">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h3>Update Profil</h3>
+						</div>
+						<div class="modal-body">
+							<div class="form-group">
+								<label for="name">Nama : </label>
+								<input type="text" name="name" id="name" class="form-control" value="<?php echo $nama;?>" id="name" required>
+								<label for="user">Nomor Rekening :</label>
+								<input type="text" name="user" id="user" class="form-control" value="<?php echo $no_rek;?>" id="user" required>
+								<label for="email">Email :</label>
+								<input type="email" name="email" id="email" class="form-control" value="<?php echo $email;?>" id="email" required>
+								<label for="pass">Password :</label>
+								<input type="password" name="pass" id="pass" class="form-control" value="<?php echo $password;?>" id="pass" required></br>
+								<span id="notif"></span>
+								<input type="submit" name="submit" value="Change" class="btn btn-primary btn-block">
+							</div>
+						</div>
+					</div>
+				<div>
+			</div>
+			
 		</div>
 	</body>
 </html>
