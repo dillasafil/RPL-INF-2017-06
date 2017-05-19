@@ -50,9 +50,8 @@ p {
 	margin: 0 auto;
 	width: 1000px;
 	}
-	
 
- #popup2 {
+  #popup1 {
 	width: 100%;
 	height: 100%;
 	position: fixed;
@@ -63,10 +62,10 @@ p {
 	visibility: hidden;
 }
 
-#popup2:target {
+#popup1:target {
 	visibility: visible;
 }
- 
+
  
 .button{
 	font-family: century gothic;
@@ -138,23 +137,22 @@ p {
 	<section class="content">
 	<div  class="tb">
 		<a class = "text" href="">Profile</a>
-		
-			
-		<a class = "text" href="#popup2">Bayar Iuran</a><div id="popup2">
+
+		<a class = "text" href="">Isi saldo</a>
+			 
+		<a class = "text" href="#popup1">Cek saldo</a>
+			<div id="popup1">
 				<div class="box">
-				<a href="#" class="close-button" title="Close">cancel</a>
-						<h2>IURAN YANG HARUS DI BAYAR</h2><!-- database belum siap, coding php untuk pemanggilan database belum bisa dibuat-->
-						
-						<input placeholder="Iuran Anda" class="boxform"  required><br><br>
-						<input placeholder="Nama Rekening" class="boxform"  required><br><br>
-						<input placeholder="No. Rekening" class="boxform"  required><br><br>
-						<input placeholder="Jumlah yang di bayar" class="boxform"  required><br><br>
-						<input placeholder="Rekening yang dituju" class="boxform"  required><br><br>
-						<input placeholder="Jenis Bank" class="boxform"  required><br><br>
-							<input class="button" name="submit" type="submit" value="KIRIM" />
+					<a href="#" class="close-button" title="Close">cancel</a>
+					<h2>SALDO ANDA</h2><!-- database belum siap, coding php untuk pemanggilan database belum bisa dibuat-->
+						<a></a>
+					<input placeholder="saldo" class="boxform"  required><br><br>
+									
 				</div>
 			</div>
-	
+		<a class = "text" href="">Bayar Iuran</a>
+			
+	</div>
 
 </section>
 	
