@@ -11,11 +11,16 @@
 		html, body {
 			height: 100%;
 		}
+		body{
+			background-image:url("img/1.jpg");
+		}
 		h1{
+			font-weight:bold;
 			font-size:40px;
 			font-family: Colonna MT;
 		}
 		h4{
+			font-weight:bold;
 			font-family: century gothic;
 		}
 		#saldo{
