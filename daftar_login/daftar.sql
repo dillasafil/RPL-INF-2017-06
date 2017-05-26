@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 10, 2017 at 10:02 AM
+-- Generation Time: May 10, 2017 at 06:03 AM
 -- Server version: 10.1.19-MariaDB
--- PHP Version: 5.6.28
+-- PHP Version: 7.0.13
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,30 +17,31 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `projectrpl`
+-- Database: `parkir`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tukang_parkir`
+-- Table structure for table `daftar`
 --
 
-CREATE TABLE `tukang_parkir` (
-  `nama` varchar(50) NOT NULL,
-  `no_rek` varchar(20) NOT NULL,
-  `email` varchar(50) NOT NULL,
-  `password` varchar(50) NOT NULL,
-  `tanggal_lahir` date NOT NULL,
-  `jenis_kelamin` varchar(10) NOT NULL
+CREATE TABLE `daftar` (
+  `Nama` varchar(25) NOT NULL,
+  `Email` varchar(30) NOT NULL,
+  `Nomor HP` varchar(15) NOT NULL,
+  `Password` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `tukang_parkir`
+-- Indexes for dumped tables
 --
 
-INSERT INTO `tukang_parkir` (`nama`, `no_rek`, `email`, `password`, `tanggal_lahir`, `jenis_kelamin`) VALUES
-('parman', '12345657432', 'a@sd', '123456', '2017-12-31', 'Male');
+--
+-- Indexes for table `daftar`
+--
+ALTER TABLE `daftar`
+  ADD PRIMARY KEY (`Email`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
