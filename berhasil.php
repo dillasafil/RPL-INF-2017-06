@@ -44,19 +44,42 @@
 	</head>
 	
 		<body>
+		
+		
+		<?php
+   
+			$host="localhost";
+			$username="root";
+			$password="";
+			$database="projectrpl";
+	
+			$connect=mysqli_connect($host, $username, $password, $database) or die ("Gagal terkoneksi kedatabase");
+	
+			$nama	    =$_POST["nama"];
+			$plat	    =$_POST["plat"];
+			$rekening   =$_POST["rekening"];
+			$id         =$_POST["id"];
+			$bayar      =$_POST["bayar"];
+	
+				
+	
+			mysqli_query($connect, "insert into bayar(nama, plat, rekening, id, bayar)values('$nama', '$plat', '$rekening', '$id', '$bayar')");
+   
+		?>
+		
 			<br>	
 			<h1>TERIMA KASIH</h1>
 				<div class="tb">
 					<p>PEMBYARAN ANDA, TELAH BERHASIL<br><br>
-						Atas nama :	<br>
-						Jenis kendaraan : <br>
-						No. seri kendaraan : <br>
-						Biaya parkir : <br>
-						Id petugas : <br></p>
+						Atas nama :	<?php echo $_POST['nama'];?>.<br>
+						Jenis kendaraan : <?php echo $_POST['plat'];?>.<br>
+						No. seri kendaraan : <?php echo $_POST['plat'];?>.<br>
+						Biaya parkir :   <?php echo $_POST['bayar'];?>.<br>
+						Id petugas : <?php echo $_POST['id'];?><br></p>
 				</div>
 					<section class="content"><br><br>
 						<a href="home.php" title="Close">
-						<img src="s.png" height="200px"/></a>
+						<img src="img/s.png" height="200px"/></a>
 						
 					</section>			
 			</body>
